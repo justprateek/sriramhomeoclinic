@@ -1,0 +1,59 @@
+
+.carousel {
+    height: 100vh;
+} 
+.projects-carousel {
+    max-width: 1150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.projects-carousel .cards {
+    flex: 1;
+    margin: 10% auto;
+    width: 210px;
+    padding: 5px 5px 8px 5px;
+    /* border: 1px solid #0a2338; */
+    /* border-radius: 50%; */
+    box-shadow: 2px 4px 15px 5px #000000;
+}
+.projects-carousel .cards img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.projects-carousel .cards button {
+    background-color: burlywood;
+    color: #092546;
+    font-weight: bold;
+    border: 0;
+    box-shadow: 1px 1px 4px 2px #0d0d1a;
+    padding: 2px 15px 2px 15px;
+    transition: 0.6s;
+}
+.projects-carousel .cards button:hover {
+    transform: scale(0.9);
+}
+.carousel-cards h6 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: burlywood;
+}
+.carousel-cards p {
+    font-size: 12px;
+}
+.owl-carousel .owl-nav button {
+    margin: 0 5px 0 5px;
+}
+.owl-carousel .owl-nav span {
+    padding: 0 10px 0 10px;
+    border: none;
+}
+.owl-carousel .owl-nav button:hover {
+   transform: scale(1.05);
+    box-shadow: 1px 1px 5px 2px #000;
+}

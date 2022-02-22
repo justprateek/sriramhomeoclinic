@@ -1,1 +1,1 @@
-Medicbot
+sri ram homeo clinic and research center
